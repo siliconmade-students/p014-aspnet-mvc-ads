@@ -25,6 +25,19 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Category}/{action=Index}/{page}/{id}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Advert}/{action=Detail}/{id}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Page}/{action=Detail}/{id}");
+
+
+app.MapControllerRoute(
         name: "Admin",
         pattern: "{area:exists}/{controller}/{action}"
     );
