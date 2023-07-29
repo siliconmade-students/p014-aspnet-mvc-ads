@@ -18,7 +18,7 @@ namespace Ads.Web.Mvc.Controllers
             return View();
         }
 
-		public IActionResult category()
+		public IActionResult Category()
 		{
 			return View();
 		}
