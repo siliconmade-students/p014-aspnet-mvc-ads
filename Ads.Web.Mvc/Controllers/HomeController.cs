@@ -18,7 +18,13 @@ namespace Ads.Web.Mvc.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+		public IActionResult category()
+		{
+			return View();
+		}
+
+
+		public IActionResult Privacy()
         {
             return View();
         }
