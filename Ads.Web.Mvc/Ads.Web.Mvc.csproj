@@ -6,4 +6,24 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Views\Category\" />
+    <None Remove="Views\Advert\" />
+    <None Remove="Views\Page\" />
+    <None Remove="Views\Auth\" />
+    <None Remove="Areas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Views\Category\" />
+    <Folder Include="Views\Advert\" />
+    <Folder Include="Views\Page\" />
+    <Folder Include="Views\Auth\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
+  </ItemGroup>
 </Project>
