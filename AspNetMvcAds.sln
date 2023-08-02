@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ads.Web.Mvc", "Ads.Web.Mvc\Ads.Web.Mvc.csproj", "{75DA5408-07A7-45C0-987A-196B272C6CC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ads.Business", "Ads.Business\Ads.Business.csproj", "{6189F3BD-550B-4572-8891-10B0ECC4AA9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ads.Business", "Ads.Business\Ads.Business.csproj", "{6189F3BD-550B-4572-8891-10B0ECC4AA9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ads.Data", "Ads.Data\Ads.Data.csproj", "{6315BA80-17E0-442F-8C3D-6B364B295E87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6189F3BD-550B-4572-8891-10B0ECC4AA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6189F3BD-550B-4572-8891-10B0ECC4AA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6189F3BD-550B-4572-8891-10B0ECC4AA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6315BA80-17E0-442F-8C3D-6B364B295E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6315BA80-17E0-442F-8C3D-6B364B295E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6315BA80-17E0-442F-8C3D-6B364B295E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6315BA80-17E0-442F-8C3D-6B364B295E87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
