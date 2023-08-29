@@ -34,7 +34,7 @@
     <![endif]-->
 </head>
 <body>
-    <partial name="Navbar" />
+    @await Component.InvokeAsync("Navbar")
     
     @RenderBody()
 
